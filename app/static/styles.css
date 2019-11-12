@@ -29,7 +29,24 @@ div.post-author {
 /* div.post-thumbnail {
     position: absolute;
 } */
-div.post-body {
+div.post-content {
     margin-left: 48px;
     min-height: 48px;
+}
+div.post-footer {
+    text-align: right;
+}
+div.pagination {
+    width: 100%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+div.flask-pagedown-preview {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #e0e0e0;
+    padding: 4px;
+}
+div.flask-pagedown-preview h1 {
+    font-size: 140%;
 }
